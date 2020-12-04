@@ -37,7 +37,7 @@ const createAvatarDetail = character => {
 };
 
 const showCharacter = character => {
-  console.log("character", character);
+  // console.log("character", character);
   const characterDetail = document.getElementById("character-detail");
 
   characterDetail.innerHTML = "";
@@ -57,4 +57,19 @@ const createParagraph = text => {
   return element;
 };
 
-export { createCharacterRow, showCharacter };
+//Adding some functions to utils.js
+
+const showQuote = (quote) => {
+  const characterDetail = document.getElementById("character-detail");
+  
+  const p = document.createElement("p");
+  p.setAttribute("style", "max-width: 350px; ");
+
+  const q = document.createElement("q");
+  q.innerText = quote;
+  
+  p.append(q);
+  characterDetail.appendChild(p);
+};
+
+export { createCharacterRow, showCharacter, showQuote};
