@@ -1,0 +1,23 @@
+{
+  "name": "the-breaking-bad-characters-app",
+  "version": "1.0.0",
+  "description": "Webapp using The Breaking Bad API",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esemega/The-Breaking-Bad-characters-app.git"
+  },
+  "author": "Sonia Garcia Alcaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esemega/The-Breaking-Bad-characters-app/issues"
+  },
+  "homepage": "https://github.com/Esemega/The-Breaking-Bad-characters-app#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
